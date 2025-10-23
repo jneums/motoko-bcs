@@ -1,0 +1,10 @@
+[package]
+name = "bcs"
+version = "0.1.0"
+description = "BCS (Binary Canonical Serialization) implementation for Motoko - Reference implementation compatible with SUI's BCS"
+repository = "https://github.com/jneums/motoko-bcs"
+keywords = ["bcs", "serialization", "sui", "move", "binary"]
+license = "Apache-2.0"
+
+[dependencies]
+base = "0.11.1"

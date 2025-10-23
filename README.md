@@ -4,25 +4,21 @@
 
 A complete implementation of Binary Canonical Serialization (BCS) for Motoko, compatible with the SUI blockchain's BCS specification and byte-for-byte compatible with the [official TypeScript implementation](https://github.com/MystenLabs/ts-sdks/tree/main/packages/bcs).## Install
 
-```
-
-## Featuresmops add bcs
-
-```
+## Features
 
 - ✅ **Primitive Types**: u8, u16, u32, u64, u128, u256, bool, string, bytes
 
-- ✅ **Composite Types**: vectors, options, tuples, fixed arrays## Usage
+- ✅ **Composite Types**: vectors, options, tuples, fixed arrays
 
-- ✅ **ULEB128 Encoding**: Variable-length integer encoding for efficient serialization```motoko
+- ✅ **ULEB128 Encoding**: Variable-length integer encoding for efficient serialization
 
-- ✅ **Little-Endian**: All multi-byte integers use little-endian byte orderingimport Bcs "mo:bcs";
+- ✅ **Little-Endian**: All multi-byte integers use little-endian byte ordering
 
 - ✅ **Type-Safe**: Leverages Motoko's type system for compile-time safety
 
-- ✅ **Well-Tested**: Comprehensive test suite comparing output with TypeScript reference implementation// example...
+- ✅ **Well-Tested**: Comprehensive test suite comparing output with TypeScript reference implementation
 
-```
+
 ## Installation
 
 Install via mops:
@@ -288,7 +284,6 @@ bcs/
 │   └── Uleb.mo         # ULEB128 encoding/decoding
 ├── test/
 │   └── lib.test.mo     # Comprehensive test suite
-├── bcs-ts/             # TypeScript reference implementation
 ├── mops.toml           # Package configuration
 ├── SPEC.md             # Project specification
 └── README.md           # This file
@@ -305,7 +300,7 @@ Contributions are welcome! Please ensure:
 
 ## License
 
-Apache-2.0
+MIT License. See `LICENSE` file for details.
 
 ## Credits
 
@@ -314,4 +309,3 @@ This implementation is based on the [Mysten Labs TypeScript BCS library](https:/
 ## Support
 
 For issues, questions, or contributions, please visit the [GitHub repository](https://github.com/jneums/motoko-bcs).
-# motoko-bcs
