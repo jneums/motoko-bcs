@@ -1,8 +1,6 @@
-# BCS (Binary Canonical Serialization) for Motoko# bcs
+# BCS (Binary Canonical Serialization) for Motoko
 
-
-
-A complete implementation of Binary Canonical Serialization (BCS) for Motoko, compatible with the SUI blockchain's BCS specification and byte-for-byte compatible with the [official TypeScript implementation](https://github.com/MystenLabs/ts-sdks/tree/main/packages/bcs).## Install
+A complete implementation of Binary Canonical Serialization (BCS) for Motoko, compatible with the SUI blockchain's BCS specification and byte-for-byte compatible with the [official TypeScript implementation](https://github.com/MystenLabs/ts-sdks/tree/main/packages/bcs).
 
 ## Features
 
